@@ -1,0 +1,36 @@
+*{
+    background-color: azure;
+}
+.firstDiv{
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    background-color: aqua;
+}
+form{
+    /* display: inline; */
+    text-align: center;
+    /* background-color: aqua; */
+}
+.field-icon{
+    float: right;
+}
+.eye-img {
+    position: relative;
+    width: 25px;
+    height: auto;
+    top: 5px;
+}
+.password {
+    display: inline-block;
+    position: relative;
+    border: 1px dotted #000;
+}
+.password input {
+    padding: 10px 5px;
+    outline: none;
+    border: 0;
+}
+button {
+    margin-top: 10px;
+}
