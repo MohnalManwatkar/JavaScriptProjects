@@ -1,0 +1,29 @@
+
+#increasebutton {
+    background-color: green;
+    color: white;
+}
+
+#decreasebutton {
+    background-color: red;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    margin: 0;
+}
+
+#number{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#buttonContainer{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 5;}
