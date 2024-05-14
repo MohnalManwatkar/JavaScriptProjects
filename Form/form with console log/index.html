@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Console.log</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form action="" class="form" onsubmit="registrationSubmit(event)">
+            <div class="info-form">
+                <label>First Name: </label>
+                <input type="text" name="fname">
+            </div>
+            <div class="info-form">
+                <label>Last Name: </label>
+                <input type="text" name="lname">
+            </div>
+            <div class="info-form">
+                <label>Email: </label>
+                <input type="email" name="email">
+            </div>
+            <div class="info-form">
+                <label>Mobile No.: </label>
+                <input type="number" name="mobile">
+            </div>
+            <div class="info-form">
+                <label>Password: </label>
+                <input type="password" name="pass">
+            </div>
+            <button id="registerButton" type="submit">Register</button>
+            <button type="reset">Clear</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
