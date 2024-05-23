@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="curd_todo.css">
+</head>
+<body>
+    <header> <h1>Todo List</h1> </header>
+    
+    <div class="container">
+        <div class="left">
+            <form id="form">
+                <label for="post">write your post here!</label>
+                <br>
+                <textarea name="post" id="input" cols="30" rows="10"></textarea>
+                <br>
+                <div id="msg"></div>
+                <button type="submit">Post</button>
+            </form>
+        </div>
+
+        <div class="right">
+            <h3 class="h3">your tasks</h3>
+            <div id="posts">
+                <div class="retrive">
+                    <p>hellow 1</p>
+                    <span class="options"> 
+                        <button onclick="updatePost(this)">Update</button>
+                        <button onclick="deletePost(this)">delete</button>
+                    </span>
+                </div>     
+                <div class="retrive">
+                    <p>hellow 2</p>
+                    <span class="options">
+                        <button>Update</button>
+                        <button>delete</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="curd_todo.js"></script>
+</body>
+</html>
